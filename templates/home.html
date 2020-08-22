@@ -1,0 +1,31 @@
+{% extends 'layout.html' %}
+
+{% block body %}
+    <div class="row d-flex align-items-stretch card-deck">
+        <div id="ferrous" class="col-sm-4 card text-center">
+            <img class="card-img-top" src="http://placehold.it/100x100" alt="Example of a Ferrous Salad.">
+            <div class="card-body">
+                <h2 class="card-title">Ferrous</h2>
+                <p class="card-text">A pasta based salad with cooked ingredients.</p>
+                <a href="/" class="btn btn-primary">Select</a>
+            </div>
+        </div>
+        <div id="bound" class="col-sm-4 card text-center">
+            <img class="card-img-top" src="http://placehold.it/100x100" alt="Example of a Bound Salad.">
+            <div class="card-body">
+                <h2 class="card-title">Bound</h2>
+                <p class="card-text">A salad held together with a thick sauce such as potato salad.</p>
+                <a href="/" class="btn btn-primary">Select</a>
+            </div>
+        </div>
+        <div id="leafy" class="col-sm-4 card text-center">
+            <img class="card-img-top" src="http://placehold.it/100x100" alt="Example of a leafy salad.">
+            <div class="card-body">
+                <h2 class="card-title">Leafy</h2>
+                <p class="card-text">Traditional, leaf based salads with fruits and veggies.</p>
+                <a href="/leafy" class="btn btn-primary">Select</a>
+            </div>
+        </div>
+    </div>
+
+{% endblock %}

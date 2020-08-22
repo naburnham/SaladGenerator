@@ -1,0 +1,18 @@
+{% extends 'layout.html' %}
+
+{% block body %}
+
+    <h4>Recipe</h4>
+    <ul>
+        {% for each in salad %}
+            {% if each=="None" %}
+            {% else %}
+                <li>{{ each }}</li>
+            {% endif %}
+        {% endfor %}
+    </ul>
+
+
+    <a href="/leafy" class="btn btn-primary">Try Again</a>
+    <a href="/" class="btn btn-primary">Go Back</a>
+{% endblock %}
